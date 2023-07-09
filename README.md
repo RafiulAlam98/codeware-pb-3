@@ -1,7 +1,8 @@
 
 Post an Order 
 http://localhost:5000/api/v1/order/add-order [POST]
-Data Model
+
+### Data Model
 ```
 {
     "orderItems":[
@@ -25,4 +26,4 @@ Get All Order
 http://localhost:5000/api/v1/order [Get]
 
 Get all Items
-http://localhost:5000/api/v1/items
+http://localhost:5000/api/v1/items [GET]
